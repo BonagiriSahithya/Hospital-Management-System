@@ -3,70 +3,72 @@
 ````markdown
 # 🏥 Hospital Management System
 
-A **full-stack** hospital management system built with **ReactJS** (frontend) and **Java Spring Boot** (backend).  
-💡 Designed to streamline hospital operations with a modern, responsive interface.
+A full-stack hospital management platform designed to streamline patient records, appointments, and staff management.  
+Built with **ReactJS** (frontend) & **Java Spring Boot** (backend).
 
 ---
 
-## ✨ Features
-- 🩺 **Patient Management**: Register, view, update, and delete patient records.
-- 📅 **Appointment Scheduling**: Book, view, and manage appointments.
-- 👨‍⚕️ **Doctor & Staff Profiles**: Maintain details for all medical staff.
-- 📊 **Dashboard & Analytics**: View today's appointments, total patients, and staff usage.
-- 🔐 **Secure Role-Based Access**: Admins and staff have different access levels.
+## 📌 Features
+- 🧾 **Patient Management** – Register, edit, and track patient records.
+- 📅 **Appointment Scheduling** – Book and manage doctor appointments.
+- 👨‍⚕️ **Doctor & Staff Profiles** – Maintain staff details and availability.
+- 📊 **Dashboard & Analytics** – View key hospital statistics in real time.
+- 🔐 **Role-Based Access Control** – Admin & staff with different permissions.
 
 ---
 
-## 🛠️ Tech Stack
-
-| Layer         | Technology |
-|--------------|------------|
-| 🎨 Frontend  | ReactJS |
-| 💅 Styling   | CSS / Bootstrap / Material-UI |
-| ⚙️ Backend   | Java Spring Boot |
-| 🗄 Database  |  MySQL / PostgreSQL |
-| 📦 Build Tools | npm / yarn (frontend), Maven / Gradle (backend) |
+## 🛠 Tech Stack
+| Layer     | Technology |
+|-----------|------------|
+| **Frontend** | ReactJS, CSS, (Bootstrap / Material-UI optional) |
+| **Backend**  | Java Spring Boot |
+| **Database** | H2 / MySQL / PostgreSQL |
+| **Build Tools** | npm / yarn (frontend), Maven / Gradle (backend) |
 
 ---
 
 ## 🚀 Getting Started
 
-### 📋 Prerequisites
-- [Node.js](https://nodejs.org/) + npm / yarn
-- Java 8+ and Maven / Gradle
-- Database (MySQL, PostgreSQL, or H2)
+### **1️⃣ Prerequisites**
+- Node.js & npm
+- Java 8+
+- Maven / Gradle
+- MySQL (or any configured DB)
 
----
-
-### 🎯 Frontend Setup
+### **2️⃣ Clone the Repository**
 ```bash
-cd frontend
-npm install     # or yarn install
-npm start       # or yarn start
+git clone https://github.com/your-username/hospital-management-system.git
+cd hospital-management-system
 ````
 
-Your React app will run at: **[http://localhost:3000](http://localhost:3000)**
+### **3️⃣ Frontend Setup**
 
----
+```bash
+cd frontend
+npm install
+npm start
+```
 
-### ⚙️ Backend Setup
+Frontend will be available at: **[http://localhost:3000](http://localhost:3000)**
+
+### **4️⃣ Backend Setup**
 
 ```bash
 cd backend
-mvn spring-boot:run   # or ./gradlew bootRun
+mvn spring-boot:run
 ```
 
-API will run at: **[http://localhost:8080](http://localhost:8080)**
+Backend will be available at: **[http://localhost:8080](http://localhost:8080)**
 
 ---
 
-### 🔧 Configuration
+## ⚙️ Configuration
 
-Edit `src/main/resources/application.properties`:
+Edit `src/main/resources/application.properties` for:
 
-* Database credentials
+* Database connection details
 * Server port
-* Environment variables
+* Security settings
 
 ---
 
@@ -74,17 +76,19 @@ Edit `src/main/resources/application.properties`:
 
 ```
 hospital-management-system/
-├── frontend/          # ReactJS client
-└── backend/           # Spring Boot server
+├── frontend/       # ReactJS client
+└── backend/        # Spring Boot server
 ```
 
 ---
 
 ## 📡 Example API Endpoints
 
-* `GET /api/patients` → List all patients
-* `POST /api/patients` → Add new patient
-* `GET /api/appointments` → List all appointments
+| Method | Endpoint            | Description          |
+| ------ | ------------------- | -------------------- |
+| GET    | `/api/patients`     | Fetch all patients   |
+| POST   | `/api/patients`     | Create new patient   |
+| GET    | `/api/appointments` | Get all appointments |
 
 ---
 
