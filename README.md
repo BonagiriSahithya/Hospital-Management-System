@@ -24,14 +24,8 @@ A **full-stack** hospital management system built with **ReactJS** (frontend) an
 | 🎨 Frontend  | ReactJS |
 | 💅 Styling   | CSS / Bootstrap / Material-UI |
 | ⚙️ Backend   | Java Spring Boot |
-| 🗄 Database  | H2 / MySQL / PostgreSQL |
+| 🗄 Database  |  MySQL / PostgreSQL |
 | 📦 Build Tools | npm / yarn (frontend), Maven / Gradle (backend) |
-
-**Badges:**
-![React](https://img.shields.io/badge/Frontend-ReactJS-blue?logo=react)
-![Java](https://img.shields.io/badge/Backend-Java%20Spring%20Boot-green?logo=springboot)
-![Database](https://img.shields.io/badge/Database-MySQL-orange?logo=mysql)
-![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
 
